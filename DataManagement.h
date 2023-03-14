@@ -8,7 +8,7 @@
 #include "stdio.h"
 
 extern FILE *fp;    //文件指针
-extern char fname[100]; //文件名
+extern char fileName[100]; //文件名
 
 //书籍信息结构体
 typedef struct dateBook{
