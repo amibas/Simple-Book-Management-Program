@@ -56,6 +56,13 @@ build CMakeFiles/Simple_Book_Management_Program.dir/main.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\Simple_Book_Management_Program.dir
   OBJECT_FILE_DIR = CMakeFiles\Simple_Book_Management_Program.dir
 
+build CMakeFiles/Simple_Book_Management_Program.dir/DataManagement.cpp.obj: CXX_COMPILER__Simple_Book_Management_Program_Debug E$:/Engineering$ Practice/Simple$ Book$ Management$ Program/DataManagement.cpp || cmake_object_order_depends_target_Simple_Book_Management_Program
+  DEP_FILE = CMakeFiles\Simple_Book_Management_Program.dir\DataManagement.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  INCLUDES = -I"E:/Engineering Practice/Simple Book Management Program/./EasyX/include"
+  OBJECT_DIR = CMakeFiles\Simple_Book_Management_Program.dir
+  OBJECT_FILE_DIR = CMakeFiles\Simple_Book_Management_Program.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Simple_Book_Management_Program
@@ -64,7 +71,7 @@ build CMakeFiles/Simple_Book_Management_Program.dir/main.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Simple_Book_Management_Program.exe
 
-build Simple_Book_Management_Program.exe: CXX_EXECUTABLE_LINKER__Simple_Book_Management_Program_Debug CMakeFiles/Simple_Book_Management_Program.dir/main.cpp.obj
+build Simple_Book_Management_Program.exe: CXX_EXECUTABLE_LINKER__Simple_Book_Management_Program_Debug CMakeFiles/Simple_Book_Management_Program.dir/main.cpp.obj CMakeFiles/Simple_Book_Management_Program.dir/DataManagement.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -Wl,-Bstatic  -leasyx  -Wl,-Bdynamic  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   LINK_PATH = -LE:/ENGINE~1/SIMPLE~1/./EasyX/lib64

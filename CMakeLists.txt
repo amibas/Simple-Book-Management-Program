@@ -7,4 +7,4 @@ include_directories(./EasyX/include)
 link_directories(./EasyX/lib64)
 link_libraries(libeasyx.a)
 
-add_executable(Simple_Book_Management_Program main.cpp)
+add_executable(Simple_Book_Management_Program main.cpp DataManagement.h DataManagement.cpp)
